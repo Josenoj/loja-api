@@ -16,34 +16,6 @@ A API permite cadastrar, consultar, atualizar e excluir produtos.
 - Maven
 - Postman
 
-## Funcionalidades
-
-- Cadastrar produtos.
-- Listar todos os produtos.
-- Atualizar os dados de um produto.
-- Excluir produtos.
-
-## Endpoints
-
-| Método HTTP | Endpoint | Descrição |
-|---|---|---|
-| GET | `/produtos` | Lista todos os produtos |
-| POST | `/produtos` | Cadastra um produto |
-| PUT | `/produtos/{id}` | Atualiza um produto |
-| DELETE | `/produtos/{id}` | Exclui um produto |
-
-## Exemplo de cadastro
-
-Para cadastrar um produto, envie uma requisição POST para `/produtos` com o seguinte JSON:
-
-```json
-{
-  "nome": "Arroz",
-  "preco": 5.50,
-  "quantidade": 10
-}
-```
-
 ## Como executar o projeto
 
 1. Instale o Java 21.
